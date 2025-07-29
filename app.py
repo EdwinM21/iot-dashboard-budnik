@@ -22,7 +22,7 @@ def controlar_envio(estado: bool):
         topic="control/maquina1",
         payload="ON" if estado else "OFF",
         hostname="k7a1e7ea.ala.us-east-1.emqxsl.com",
-        port=1883,
+        port=8883,
         auth={'username': "EM", 'password': "EM21082002"}
     )
 
