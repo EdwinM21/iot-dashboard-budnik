@@ -4,7 +4,7 @@ import paho.mqtt.publish as publish
 
 # Configuración de conexión MySQL
 db = mysql.connector.connect(
-    host="localhost",
+    host="127.0.0.1",
     user="root",
     password="",
     database="iot_datos_budnik"
